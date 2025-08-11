@@ -106,18 +106,14 @@ Heart Disease % = DIVIDE(CALCULATE(COUNTROWS(FILTER('data', data[target] = 1))),
 ```
 📁 heart-disease-analysis
  ├── data/
- │   └── heart_cleaned_data.xlsx
+ │   └── heart.csv(2)
  ├── excel/
- │   └── Heart_Disease_Excel_Dashboard.xlsx
+ │   └── Heart_cleaned_data.xlsx
  ├── python/
- │   └── heart_disease_analysis.ipynb
+ │   └── heart.ipynb
  ├── powerbi/
- │   └── Heart_Disease_Dashboard.pbix
+ │   └── Heart_Disease_Analysis_powerbi.pbix
  ├── README.md
- └── screenshots/
-     ├── excel_dashboard.png
-     ├── python_visuals.png
-     └── powerbi_dashboard.png
 ```
 
 ---
