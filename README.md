@@ -51,7 +51,7 @@ Below is a **simple explanation of each column** for non-medical readers:
 - Add Slicers for Age & Gender
 - Design a clean, user-friendly dashboard
 
-**Deliverable:** `Heart_Disease_Excel_Dashboard.xlsx`
+**Deliverable:** `Heart.csv (2).xlsx`
 
 ---
 
@@ -65,7 +65,7 @@ Below is a **simple explanation of each column** for non-medical readers:
   - Heatmaps for correlations
 - Label axes & provide clear titles
 
-**Deliverable:** `heart_disease_analysis.ipynb`
+**Deliverable:** `heart.ipynb`
 
 ---
 
@@ -87,7 +87,7 @@ Total Patients = COUNTROWS('data')
 Heart Disease % = DIVIDE(CALCULATE(COUNTROWS(FILTER('data', data[target] = 1))), COUNTROWS('data'))
 ````
 
-**Deliverable:** `Heart_Disease_Dashboard.pbix`
+**Deliverable:** `heart_disease_analysis_powerbi.pbix`
 
 ---
 
@@ -105,10 +105,8 @@ Heart Disease % = DIVIDE(CALCULATE(COUNTROWS(FILTER('data', data[target] = 1))),
 
 ```
 📁 heart-disease-analysis
- ├── data/
- │   └── heart.csv(2)
  ├── excel/
- │   └── Heart_cleaned_data.xlsx
+ │   └── heart.csv(2)
  ├── python/
  │   └── heart.ipynb
  ├── powerbi/
@@ -120,9 +118,9 @@ Heart Disease % = DIVIDE(CALCULATE(COUNTROWS(FILTER('data', data[target] = 1))),
 
 ## 🚀 How to Run
 
-1. **Excel Dashboard**: Open `Heart_Disease_Excel_Dashboard.xlsx` → Use slicers to filter.
-2. **Python Notebook**: Run `heart_disease_analysis.ipynb` in Jupyter Notebook or VS Code.
-3. **Power BI Dashboard**: Open `Heart_Disease_Dashboard.pbix` in Power BI Desktop.
+1. **Excel Dashboard**: Open `heart.csv(2)` → Use slicers to filter.
+2. **Python Notebook**: Run `heart.ipynb` in Jupyter Notebook or VS Code.
+3. **Power BI Dashboard**: Open `Heart_Disease_Analysis_powerbi.pbix` in Power BI Desktop.
 
 
 ---
