@@ -106,7 +106,7 @@ Heart Disease % = DIVIDE(CALCULATE(COUNTROWS(FILTER('data', data[target] = 1))),
 ```
 📁 heart-disease-analysis
  ├── excel/
- │   └── heart.csv(2)
+ │   └── heart.csv(2).xlsx
  ├── python/
  │   └── heart.ipynb
  ├── powerbi/
@@ -118,7 +118,7 @@ Heart Disease % = DIVIDE(CALCULATE(COUNTROWS(FILTER('data', data[target] = 1))),
 
 ## 🚀 How to Run
 
-1. **Excel Dashboard**: Open `heart.csv(2)` → Use slicers to filter.
+1. **Excel Dashboard**: Open `heart.csv(2).xlsx` → Use slicers to filter.
 2. **Python Notebook**: Run `heart.ipynb` in Jupyter Notebook or VS Code.
 3. **Power BI Dashboard**: Open `Heart_Disease_Analysis_powerbi.pbix` in Power BI Desktop.
 
